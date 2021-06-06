@@ -1,0 +1,236 @@
+body{
+    background-color:lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    padding: 20px;
+    background-color:lightskyblue;
+}
+
+.bg{
+    background-image: url('../foto/fuji.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    
+}
+.un a{
+    text-decoration: none;
+    color: white;
+}
+#judul{
+    font-size: 25px;
+    text-align: center;
+    color: #000;;
+}
+nav{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 20px;
+}
+#navbar a{
+    text-decoration: none;
+}
+#navbar a:link{
+    color:black;
+}
+#navbar a:hover{
+    color: red;
+}
+#navbar a:active{
+    color:darkgoldenrod;
+}
+#navbar a:visited{
+    background-color:darkcyan;
+}
+#navbar{
+    overflow: hidden;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.tengah{
+    padding: 50px;
+    height: fit-content;
+    text-align: center;
+}
+#logo{
+    width: 480px;
+    height: 150px;
+    padding-bottom: 5px;
+}
+.prof{
+    width: 220px;
+    height: 300px;
+    align-items: center;
+    padding-right: 10px;
+}
+#perkenalan{
+    text-align: center;
+    text-anchor: middle;
+    font-size: 30px;
+    line-height: 2px;
+    
+}
+#kenal{
+    color: azure;
+    font-size: 50px;
+}
+#saya{
+    color: azure;
+}
+#k{
+    color: azure;
+    font-size: 50px;
+    font: bold;
+}
+
+nav a::after{
+    clear: none;
+}
+.kiri{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.kanan{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.univ{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.perkenalan2{
+    float:right;
+    width: 50%;
+    color:white;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+#diri{
+    padding: 50px;
+    font-size: 20px;
+    height: 300px;
+}
+#school{
+    clear:both;
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+    background-color: white;
+}
+.kontak{
+    color: #000;
+}
+.kotak{
+    width: 10%;
+    height: 10%;
+    float: left;
+    color: black;
+    text-align: center;
+}
+.ico{
+    width: 100px;
+    height: 100px;
+}
+button{
+    border-radius: 0;
+
+}
+button:focus:not(:focus-visible){
+    outline: 0;
+}
+button,
+select{
+    text-transform: none;
+}
+[role=button]{
+    cursor: pointer;
+}
+.skill{
+    clear: both;
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    font-size: 20px;
+}
+
+.kaki{
+    clear: both;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.kaki a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width:1390px) {
+    .kiri{
+        width: 100%;
+        padding: 0;
+    }
+    .kanan{
+        width: 100%;
+        padding: 0;
+    }
+    #school{
+        width: 100%;
+        height: 500px;
+        padding: 0;
+    }
+    .perkenalan2{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .prof{
+        padding-right: 0;
+    }
+    #diri{
+        width: 100%;
+        height: 580px;
+    }
+    .skill{
+        width: 100%;
+        height: 350px;
+        padding: 0;
+    }
+    .kotak{
+        width:20%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #logo{
+        width: 380px;
+        height: 100px;
+    }
+    #perkenalan{
+        font-size: 20px;
+    }
+    #k{
+        font-size: 30px;
+    }
+    .univ{
+        font-size: 20px;
+    }
+    .perkenalan2{
+        font-size: 15px;
+    }
+    .kotak{
+        width: fit-content;
+    }
+
+}

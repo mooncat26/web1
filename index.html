@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+Nama		= Krisna Krisdianto Saputra
+NIM			= 200401072028
+Kelas		= IT-03
+Mata Kuliah	= Pemrograman Web I
+-->
+<html lang="en">
+	<!--Bagian head-->
+	<head>
+		<!--meta-->
+		<meta name="author" content="Krisna Krisdianto Saputra">
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--favicon-->
+		<link rel="icon" href="foto/Unsia.png" type="image/x-icon">
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="css/test.css"/>
+		<!--title-->
+		<title>CV Pribadi</title>
+	</head>
+	<body>
+		<header>
+			<div>	
+				<!--judul web-->
+				<div id="judul"> 
+					<h1>Curriculm Vitae</h1>
+				</div>
+				<div>
+					<!--Area Navigasi-->
+					<nav id="navbar">		
+						<a href="#awal">Perkenalan</a> | <a href="#diri">Data Diri</a> | <a href="#school">Pendidikan</a> | <a href="#kontak">Kontak</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--Background foto perkenalan-->
+		<div class="bg" id="awal">
+			<!--logo universitas-->
+			<div class="tengah">
+				<img src="foto/logo.png" alt="profil" id="logo"/>
+			</div>
+			<!--perkenalan-->
+			<div id="perkenalan">
+				<p id="saya">Saya,</p>
+				<p id="k">Krisna Krisdianto Saputra</p>
+			</div>
+			<div class="univ">
+				<p>Jurusan Teknik Informatika</p>
+				<p class="un"><i><a href="https://unsia.ac.id/" target="_blank">Universitas Siber Asia</a></i></p><!--dengan klik membuka tab baru-->
+		
+			</div>
+		</div>
+		<!--Bagian deskripsi diri-->
+		<div id="diri">
+			<div class="kiri">
+				<img src="foto/DSC_5418.JPG" alt="profil" align="center" class="prof"/>
+			</div>
+			<div class="perkenalan2">
+				<p>Halo, Perkenalkan nama saya Krisna Krisdianto Saputra</p><!--Awal Paragraf Pertama-->
+				<p>Saya Lahir di Banyuwangi, tanggal 26 Oktober 2002</p>
+				<p>Saya berdomisili di Kabupaten Rote Ndao, Provinsi Nusa Tenggara Timur</p><br/><!--Akhir Paragraf pertama dan ada brake paragraf-->
+				<p>Saya memiliki mimpi untuk mendeveloper sebuah game</p><!--Paragraf kedua-->
+				<p>dan game yang kopatibel dengan desktop maupun mobile</p>
+			</div>
+		</div>
+		<!--Bagian Daftar Pendidikan-->
+		<div id="school">
+			<h2 align="center"><strong>Pendidikan</strong></h2>
+			<div class="kiri">
+				<h3 align="center">Daftar Kelulusan</h3>
+				<!--Tabel Pertama-->
+				<table align="center" cellpadding="5">
+					<tr>
+						<th>No</th>
+						<th>Nama Sekolah</th>
+						<th>Tahun Lulus</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td>SD Inpress 3 Baa </td>
+						<td>2014</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>SMP Negeri 1 Lobalain</td>
+						<td>2017</td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td>SMK Negeri 1 Lobalain</td>
+						<td>2020</td>
+					</tr>
+				</table>
+			</div>
+			<div class="kanan">
+				<h3 align="center">Pelatihan</h3>
+				<!--Tabel Kedua-->
+				<table align="center" cellpadding="5">
+					<tr>
+						<th>No</th>
+						<th>Nama Pelatihan</th>
+						<th>Tempat Pelatihan</th>
+						<th>Tahun</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td>Pemrograman Web Dasar (Pemula)</td>
+						<td>Dicoding (IDCamp)</td>
+						<td>2020</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>Data Science & Machine Learning Python</td>
+						<td>Babastudio (Prakerja)</td>
+						<td>2021</td>
+					</tr>
+				</table>
+			</div>	
+		</div>
+		<div class="skill">
+			<h2 align="center">Skill</h2>
+			<div class="kiri">
+				<!--list pertama-->
+				<ol align="left">
+					<li>Web (Pemula)</li>
+					<li>C++ (Pemula)</li>
+					<li>Python (Pemula)</li>
+				</ol>
+			</div>
+			<!--list kedua-->
+			<div class="kanan">
+				<ul type="circle" align="left">
+					<li>Web<!--tab-->&emsp;&emsp;<!--tab-->: HTML, CSS</li>
+					<li>C++<!--tab-->&emsp;&emsp;<!--tab-->: Simple program</li>
+					<li>Python<!--tab-->&emsp;<!--tab-->: Simple Program</li>
+				</ol>
+			</div>
+		</div>
+		<div class="skill" id="kontak">
+			<div><!--Bagian daftar kontak-->
+				<h2 align="center">Kontak</h2>
+				<!--email-->
+				<div class="kotak">
+					<a href="mailto:krisnas311@gmail.com" target="_blank"><img src="foto/gmail.jpeg" alt="gmail" class="ico"/></a>
+					<p>Gmail</p>
+				</div>
+				<!--Facebook-->
+				<div class="kotak">
+					<a href="https://www.facebook.com/krisna.saputra2612" target="_blank"><img src="foto/fb.png" alt="Facebook" class="ico"/></a>
+					<p>Facebook</p>
+				</div>
+				<!--Whatsapp-->
+				<div class="kotak">
+					<a href="https://wa.me/6282295481789" target="_blank"><img src="foto/whatsapp.png" alt="Whatsapp" class="ico"></a>
+					<p>Whatsapp</p>
+				</div>
+			</div>
+		</div>
+			<div class="kaki">
+				<p><i><b><u>Thanks to <a href="https://unsia.ac.id" class="un">Unsia</a></u></b></i></p><!--baris berisi atribut bold, italic dan-->
+				<a href="https://unsia.ac.id/" target="_blank"><img src="foto/Unsia.png" alt="unsia" class="icon"/></a>
+			</div>
+	</body>
+	<script src="js/mooncat.js"></script>
+</html> 
